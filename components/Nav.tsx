@@ -4,15 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const navLinks = [
-  { label: "Program", href: "#program" },
-  { label: "Faculty", href: "#faculty" },
-  { label: "Schedule a Call", href: "https://calendly.com/clinxacademy", external: true },
-  { label: "About", href: "#about" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "CME", href: "https://members.clinxacademy.com/cme", external: true },
-];
-
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -34,38 +25,25 @@ export default function Nav() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-7">
-            {navLinks.map((link) =>
-              link.external ? (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors"
-                >
-                  {link.label}
-                </a>
-              ) : (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors"
-                >
-                  {link.label}
-                </a>
-              )
-            )}
+            <a href="/#program" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Program</a>
+            <a href="/#faculty" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Faculty</a>
+            <a href="https://calendly.com/alex-clinx" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Schedule a Call</a>
+            <Link href="/about" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">About</Link>
+            <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Pricing</a>
+            <a href="https://clinx-cme.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">CME</a>
           </nav>
 
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="https://members.clinxacademy.com/login"
+              href="https://www.clinxacademy.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors px-2"
             >
               Login
             </a>
-            <a href="https://members.clinxacademy.com" className="btn-primary text-xs">
+            <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs">
               Join Now
             </a>
           </div>
@@ -92,39 +70,15 @@ export default function Nav() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="lg:hidden bg-[#F5F3EF] border-t border-[#D8D4CC] px-6 py-5 space-y-4">
-          {navLinks.map((link) =>
-            link.external ? (
-              <a
-                key={link.label}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            ) : (
-              <a
-                key={link.label}
-                href={link.href}
-                className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            )
-          )}
+          <a href="/#program" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>Program</a>
+          <a href="/#faculty" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>Faculty</a>
+          <a href="https://calendly.com/alex-clinx" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">Schedule a Call</a>
+          <Link href="/about" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>About</Link>
+          <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">Pricing</a>
+          <a href="https://clinx-cme.vercel.app/" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">CME</a>
           <div className="pt-3 border-t border-[#D8D4CC] flex flex-col gap-3">
-            <a
-              href="https://members.clinxacademy.com/login"
-              className="text-sm font-medium text-[#4A4A4A]"
-            >
-              Login
-            </a>
-            <a href="https://members.clinxacademy.com" className="btn-primary text-center text-xs">
-              Join Now
-            </a>
+            <a href="https://www.clinxacademy.com/login" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A]">Login</a>
+            <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary text-center text-xs">Join Now</a>
           </div>
         </div>
       )}

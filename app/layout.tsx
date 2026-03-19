@@ -17,21 +17,23 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "ClinX Academy — Physician Business & Career Education",
+  title: "ClinX Academy | Non-Clinical Physician Jobs, Physician Side Gigs & Executive Careers for Clinicians",
   description:
-    "ClinX Academy equips physicians with the business, entrepreneurship, and career skills that medical school never taught. CME-eligible courses, expert faculty, and a community of driven clinicians.",
+    "The executive accelerator for physicians, NPs & PAs seeking non-clinical careers. 35+ hours of content, 25+ expert faculty, $300K–$600K+ earning potential.",
   keywords: [
-    "physician business education",
-    "doctor entrepreneurship",
-    "CME courses",
-    "physician career development",
-    "medical business training",
+    "non-clinical physician jobs",
+    "physician side gigs",
+    "medical director",
+    "chief medical officer",
+    "physician career",
     "ClinX Academy",
+    "healthcare executive",
+    "friendly PC owner",
   ],
   openGraph: {
-    title: "ClinX Academy — Physician Business & Career Education",
+    title: "ClinX Academy | Non-Clinical Physician Jobs & Executive Careers",
     description:
-      "ClinX Academy equips physicians with the business, entrepreneurship, and career skills that medical school never taught.",
+      "The executive accelerator for physicians, NPs & PAs seeking non-clinical careers. 35+ hours of content, 25+ expert faculty.",
     url: "https://clinxacademy.com",
     siteName: "ClinX Academy",
     type: "website",
@@ -46,9 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ClinX Academy — Physician Business & Career Education",
+    title: "ClinX Academy | Non-Clinical Physician Jobs & Executive Careers",
     description:
-      "Equipping physicians with business skills that medical school never taught.",
+      "The executive accelerator for physicians, NPs & PAs seeking non-clinical careers.",
   },
   metadataBase: new URL("https://clinxacademy.com"),
 };

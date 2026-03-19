@@ -1,93 +1,86 @@
+const membershipItems = [
+  {
+    number: "01",
+    title: "The Curriculum",
+    subtitle: "35+ Hours of Operational Fluency",
+    body: "Instant, lifetime access to deep-dive lectures bridging clinical practice and boardroom strategy.",
+  },
+  {
+    number: "02",
+    title: "The Deal Flow",
+    subtitle: "Curated Non-Clinical Career & Gig Opportunities",
+    body: "Access our internal list of high-value non-clinical physician jobs and clinician side gigs.",
+  },
+  {
+    number: "03",
+    title: "The Inner Circle",
+    subtitle: "Private WhatsApp Community",
+    body: "Bypass the gatekeepers. Join a vetted private WhatsApp group of faculty, investors, and alumni leadership.",
+  },
+  {
+    number: "04",
+    title: "Live Mentorship",
+    subtitle: "12 Months of Monthly Virtual Events",
+    body: "Join monthly live sessions with faculty for deep-dive topic discussion.",
+  },
+  {
+    number: "05",
+    title: "1-on-1 Executive Coaching",
+    subtitle: "Two 30-Minute Sessions with Alex Mohseni",
+    body: "Get personalized career guidance from ClinX founder Alex Mohseni, MD.",
+  },
+  {
+    number: "06",
+    title: "The Credential",
+    subtitle: "ClinX Healthcare Executive Certificate",
+    body: "Validate your expertise. Pass the final exam and earn the certificate.",
+  },
+  {
+    number: "07",
+    title: "ClinX Member Registry",
+    subtitle: "Opt-In Executive Talent Directory",
+    body: "Gain visibility with healthcare organizations seeking physician executives.",
+  },
+  {
+    number: "08",
+    title: "The Tactical Bonus",
+    subtitle: "The 'Hard Skills' Suite",
+    body: "Financial Fluency: P&L management, Pro Formas, & Modeling | Tools of the Trade: Excel/Sheets Mastery & AI Automation | Communication: Pitch Decks, Presentations, & Boardroom Skills",
+  },
+];
+
 export default function PricingCTA() {
   return (
-    <section className="bg-[#1C2331] py-24" id="pricing">
+    <section className="bg-[#F5F3EF] py-24 border-b border-[#D8D4CC]">
       <div className="container-width">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="eyebrow mb-6" style={{ color: "#B8860B" }}>
-            Membership
-          </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-[#F5F3EF] leading-tight mb-6">
-            Join ClinX Academy
+        <div className="max-w-xl mb-16">
+          <p className="eyebrow mb-4">Your ClinX Membership</p>
+          <h2 className="font-serif text-4xl md:text-5xl text-[#222222] leading-tight mb-4">
+            Here&apos;s Exactly What You Get.
           </h2>
-          <p className="text-[#EBE8E2] text-lg leading-relaxed mb-10 opacity-80">
-            Full access to every track, every module, all faculty, the physician
-            community, and CME credit. One membership. No surprises.
-          </p>
+        </div>
 
-          {/* Pricing cards */}
-          <div className="grid md:grid-cols-2 gap-6 mb-12 text-left">
-            {/* Monthly */}
-            <div className="border border-[#D8D4CC] border-opacity-30 p-8 bg-white bg-opacity-5">
-              <p className="text-xs font-bold tracking-widest uppercase text-[#B8860B] mb-4">
-                Monthly
-              </p>
-              <div className="font-serif text-5xl text-[#F5F3EF] mb-2">
-                $197
-                <span className="text-xl font-sans font-normal text-[#EBE8E2] opacity-60">
-                  /mo
-                </span>
+        <div className="grid md:grid-cols-2 gap-5 mb-12">
+          {membershipItems.map((item) => (
+            <div key={item.number} className="card bg-[#F5F3EF] p-8 flex gap-5">
+              <div className="text-xs font-bold tracking-widest text-[#D8D4CC] mt-1 flex-shrink-0">{item.number}</div>
+              <div>
+                <h3 className="font-serif text-xl text-[#222222] mb-1">{item.title}</h3>
+                <p className="text-[#B8860B] text-xs font-semibold tracking-wide uppercase mb-3">{item.subtitle}</p>
+                <p className="text-[#4A4A4A] text-sm leading-relaxed">{item.body}</p>
               </div>
-              <p className="text-sm text-[#EBE8E2] opacity-60 mb-8">Cancel anytime</p>
-              <ul className="space-y-3 mb-8">
-                {[
-                  "All 6 curriculum tracks",
-                  "Live monthly faculty sessions",
-                  "Physician community access",
-                  "CME credit documentation",
-                  "New content monthly",
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-[#EBE8E2]">
-                    <span className="text-[#4A7C59]">&#10003;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <a href="https://members.clinxacademy.com" className="btn-ghost-light w-full text-center block">
-                Get Started
-              </a>
             </div>
+          ))}
+        </div>
 
-            {/* Annual */}
-            <div className="border border-[#C45C3E] p-8 bg-[#C45C3E] bg-opacity-10 relative">
-              <div className="absolute top-0 right-0 bg-[#C45C3E] px-3 py-1">
-                <span className="text-xs font-bold tracking-wide uppercase text-[#F5F3EF]">
-                  Best Value
-                </span>
-              </div>
-              <p className="text-xs font-bold tracking-widest uppercase text-[#B8860B] mb-4">
-                Annual
-              </p>
-              <div className="font-serif text-5xl text-[#F5F3EF] mb-2">
-                $1,497
-                <span className="text-xl font-sans font-normal text-[#EBE8E2] opacity-60">
-                  /yr
-                </span>
-              </div>
-              <p className="text-sm text-[#EBE8E2] opacity-60 mb-8">Save $867 vs monthly</p>
-              <ul className="space-y-3 mb-8">
-                {[
-                  "Everything in Monthly",
-                  "Priority faculty access",
-                  "Annual strategy session",
-                  "VIP community tier",
-                  "Early access to new tracks",
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-[#EBE8E2]">
-                    <span className="text-[#4A7C59]">&#10003;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <a href="https://members.clinxacademy.com" className="btn-primary w-full text-center block">
-                Join Annual
-              </a>
-            </div>
-          </div>
-
-          <p className="text-sm text-[#EBE8E2] opacity-50">
+        <div className="text-center">
+          <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            See Pricing & Join Now
+          </a>
+          <p className="text-sm text-[#4A4A4A] mt-4">
             Questions?{" "}
             <a
-              href="https://calendly.com/clinxacademy"
+              href="https://calendly.com/alex-clinx"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[#C45C3E] transition-colors"
