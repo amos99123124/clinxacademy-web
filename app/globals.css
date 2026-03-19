@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-linen: #F5F3EF;
+  --bg-warm: #EBE8E2;
+  --bg-navy: #1C2331;
+  --text-dark: #222222;
+  --text-medium: #4A4A4A;
+  --accent: #C45C3E;
+  --accent-gold: #B8860B;
+  --accent-green: #4A7C59;
+  --border: #D8D4CC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-linen);
+  color: var(--text-dark);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.container-width {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #222222;
+  color: #F5F3EF;
+  padding: 0.75rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #C45C3E;
+}
+
+.btn-ghost {
+  display: inline-block;
+  background-color: transparent;
+  color: #222222;
+  padding: 0.75rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1.5px solid #222222;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  background-color: #222222;
+  color: #F5F3EF;
+}
+
+.btn-ghost-light {
+  display: inline-block;
+  background-color: transparent;
+  color: #F5F3EF;
+  padding: 0.75rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1.5px solid #F5F3EF;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-ghost-light:hover {
+  background-color: #F5F3EF;
+  color: #1C2331;
+}
+
+.card {
+  border: 1px solid #D8D4CC;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #B8860B;
+}
