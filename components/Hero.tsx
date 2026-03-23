@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Decorative rule */}
         <div className="mt-20 flex items-center gap-6">
           <div className="h-px flex-1 bg-[#D8D4CC]" />
-          <span className="text-[#B8860B] text-xs font-semibold tracking-widest uppercase">Est. 2022</span>
+          <span className="text-[#B8860B] text-xs font-semibold tracking-widest uppercase">Est. 2025</span>
           <div className="h-px flex-1 bg-[#D8D4CC]" />
         </div>
       </div>
