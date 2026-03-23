@@ -97,7 +97,7 @@ export default function ProgramOverview() {
         </div>
 
         <div className="mt-12 text-center">
-          <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Join Now
           </a>
         </div>

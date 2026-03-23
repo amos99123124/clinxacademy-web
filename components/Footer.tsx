@@ -10,9 +10,9 @@ export default function Footer() {
           <div>
             <p className="text-xs font-bold tracking-widest uppercase text-[#EBE8E2] mb-4">Program</p>
             <div className="flex flex-col gap-2">
-              <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Join Now</a>
+              <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Join Now</a>
               <a href="/#program" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Curriculum Overview</a>
-              <a href="https://www.clinxacademy.com/take-our-quiz" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Take the Quiz</a>
+              <a href="https://members.clinxacademy.com/take-our-quiz" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Take the Quiz</a>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <Link href="/about" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">About</Link>
               <Link href="/contact" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Contact Us</Link>
-              <a href="https://www.clinxacademy.com/affiliate_users/sign_up" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Affiliate Sign Up</a>
+              <a href="https://members.clinxacademy.com/affiliate_users/sign_up" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Affiliate Sign Up</a>
               <Link href="/terms-of-service" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Terms &amp; Privacy</Link>
             </div>
           </div>

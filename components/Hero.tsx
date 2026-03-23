@@ -13,7 +13,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://www.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
+              href="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-center"
@@ -21,7 +21,7 @@ export default function Hero() {
               Get the Free Field Guide
             </a>
             <a
-              href="https://www.clinxacademy.com/contact"
+              href="https://members.clinxacademy.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost text-center"

@@ -25,7 +25,7 @@ export default function NonClinicalJobsGuidePage() {
 
               <div className="card bg-[#F5F3EF] p-10 text-left">
                 <form
-                  action="https://www.clinxacademy.com/non-clinical-physician-jobs"
+                  action="https://members.clinxacademy.com/non-clinical-physician-jobs"
                   method="GET"
                   className="space-y-4"
                 >

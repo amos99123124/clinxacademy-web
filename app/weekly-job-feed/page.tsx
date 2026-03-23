@@ -25,7 +25,7 @@ export default function WeeklyJobFeedPage() {
 
               <div className="card bg-[#F5F3EF] p-10 text-left">
                 <form
-                  action="https://www.clinxacademy.com/weekly-job-feed"
+                  action="https://members.clinxacademy.com/weekly-job-feed"
                   method="GET"
                   className="space-y-4"
                 >

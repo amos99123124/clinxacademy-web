@@ -28,7 +28,7 @@ export default function MedicareCheatSheetPage() {
                 <p className="text-sm text-[#4A4A4A] mb-6">Get the free Medicare Cheat Sheet instantly!</p>
 
                 <form
-                  action="https://www.clinxacademy.com/medicare-cheat-sheet"
+                  action="https://members.clinxacademy.com/medicare-cheat-sheet"
                   method="GET"
                   className="space-y-4"
                 >

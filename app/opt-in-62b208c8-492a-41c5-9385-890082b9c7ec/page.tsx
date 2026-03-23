@@ -32,7 +32,7 @@ export default function FieldGuideOptInPage() {
 
               <div className="card bg-[#F5F3EF] p-10 text-left">
                 <form
-                  action="https://www.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
+                  action="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
                   method="GET"
                   className="space-y-4"
                 >

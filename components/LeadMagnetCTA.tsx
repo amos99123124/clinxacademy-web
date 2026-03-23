@@ -12,7 +12,7 @@ export default function LeadMagnetCTA() {
           </p>
           <p className="text-[#B8860B] font-semibold text-lg mb-6">The 10x Clinician Field Guide</p>
           <a
-            href="https://www.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
+            href="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

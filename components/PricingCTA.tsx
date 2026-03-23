@@ -74,7 +74,7 @@ export default function PricingCTA() {
         </div>
 
         <div className="text-center">
-          <a href="https://www.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="btn-primary">
             See Pricing & Join Now
           </a>
           <p className="text-sm text-[#4A4A4A] mt-4">
