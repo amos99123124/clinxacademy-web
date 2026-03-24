@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "ClinX Academy — Business of Healthcare for Physicians, NPs & PAs";
+export const alt = "ClinX Academy — Unlock Your Non-Clinical Career";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -27,32 +27,32 @@ export default function OGImage() {
             fontSize: 96,
             fontWeight: 700,
             lineHeight: 1.05,
-            marginBottom: 28,
+            marginBottom: 24,
             fontFamily: "serif",
           }}
         >
           ClinX Academy
         </div>
 
-        {/* Specific tagline */}
+        {/* Tagline */}
         <div
           style={{
-            color: "#C45C3E",
-            fontSize: 34,
+            color: "#F5F3EF",
+            fontSize: 48,
             fontWeight: 400,
             fontFamily: "sans-serif",
-            marginBottom: 20,
+            marginBottom: 24,
           }}
         >
-          Business of Healthcare for Physicians, NPs &amp; PAs
+          Unlock Your Non-Clinical Career
         </div>
 
         {/* Domain */}
         <div
           style={{
-            color: "#EBE8E2",
-            fontSize: 24,
-            opacity: 0.5,
+            color: "#C45C3E",
+            fontSize: 32,
+            fontWeight: 600,
             fontFamily: "sans-serif",
           }}
         >
