@@ -80,7 +80,7 @@ export default function PricingCTA() {
           <p className="text-sm text-[#4A4A4A] mt-4">
             Questions?{" "}
             <a
-              href="https://calendly.com/alex-clinx"
+              href="https://calendly.com/mohseni/clinx-discovery-call"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[#C45C3E] transition-colors"
