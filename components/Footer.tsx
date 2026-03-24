@@ -11,8 +11,11 @@ export default function Footer() {
             <p className="text-xs font-bold tracking-widest uppercase text-[#EBE8E2] mb-4">Program</p>
             <div className="flex flex-col gap-2">
               <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Join Now</a>
-              <a href="/#program" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Curriculum Overview</a>
+              <a href="/#membership" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Curriculum Overview</a>
               <a href="https://members.clinxacademy.com/take-our-quiz" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Take the Quiz</a>
+              <Link href="/physician-executive-training" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Physician Executive Training</Link>
+              <Link href="/medical-director-course" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medical Director Course</Link>
+              <Link href="/medicare-advantage-training" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Advantage Training</Link>
             </div>
           </div>
 
