@@ -52,15 +52,15 @@ export default function Footer() {
 
         <div className="border-t border-white border-opacity-10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <Image
-            src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/hl_3rqwVJ_WzqSKlUH4iONGHGA/settings_images/OP3OqGFoSFi1eKIVe99S_logo.png"
+            src="/logo.png"
             alt="ClinX Academy"
-            width={100}
-            height={30}
-            className="h-7 w-auto object-contain brightness-0 invert opacity-50"
+            width={140}
+            height={40}
+            className="h-9 w-auto object-contain brightness-0 invert opacity-60"
             unoptimized
           />
           <p className="text-xs text-[#EBE8E2] opacity-40">
-            &copy; 2025 ClinX Academy. All Rights Reserved.
+            &copy; 2026 ClinX Academy. All Rights Reserved.
           </p>
         </div>
       </div>

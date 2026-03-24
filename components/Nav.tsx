@@ -16,18 +16,18 @@ export default function Nav() {
             <Image
               src="/logo.png"
               alt="ClinX Academy"
-              width={140}
-              height={40}
-              className="h-9 w-auto object-contain"
+              width={180}
+              height={52}
+              className="h-12 w-auto object-contain"
               unoptimized
             />
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-7">
-            <a href="/#program" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Program</a>
+            <a href="/#membership" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Program</a>
             <a href="/#faculty" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Faculty</a>
-            <a href="https://calendly.com/alex-clinx" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Schedule a Call</a>
+            <a href="https://calendly.com/mohseni/clinx-discovery-call" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Schedule a Call</a>
             <Link href="/about" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">About</Link>
             <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">Pricing</a>
             <a href="https://clinx-cme.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E] transition-colors">CME</a>
@@ -70,9 +70,9 @@ export default function Nav() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="lg:hidden bg-[#F5F3EF] border-t border-[#D8D4CC] px-6 py-5 space-y-4">
-          <a href="/#program" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>Program</a>
+          <a href="/#membership" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>Program</a>
           <a href="/#faculty" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>Faculty</a>
-          <a href="https://calendly.com/alex-clinx" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">Schedule a Call</a>
+          <a href="https://calendly.com/mohseni/clinx-discovery-call" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">Schedule a Call</a>
           <Link href="/about" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]" onClick={() => setMenuOpen(false)}>About</Link>
           <a href="https://members.clinxacademy.com/store" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">Pricing</a>
           <a href="https://clinx-cme.vercel.app/" target="_blank" rel="noopener noreferrer" className="block text-sm font-medium text-[#4A4A4A] hover:text-[#C45C3E]">CME</a>

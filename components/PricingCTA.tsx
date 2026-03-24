@@ -51,7 +51,7 @@ const membershipItems = [
 
 export default function PricingCTA() {
   return (
-    <section className="bg-[#F5F3EF] py-24 border-b border-[#D8D4CC]">
+    <section className="bg-[#F5F3EF] py-24 border-b border-[#D8D4CC]" id="membership">
       <div className="container-width">
         <div className="max-w-xl mb-16">
           <p className="eyebrow mb-4">Your ClinX Membership</p>
