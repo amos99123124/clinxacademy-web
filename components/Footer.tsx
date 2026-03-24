@@ -23,9 +23,9 @@ export default function Footer() {
               <a href="https://blog.clinxacademy.com" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Blog</a>
               <Link href="/events" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Events</Link>
               <a href="https://www.addevent.com/calendar/pw880860" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Calendar of Events</a>
-              <Link href="/medicare-cheat-sheet" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Cheat Sheet</Link>
+              <a href="https://members.clinxacademy.com/medicare-cheat-sheet" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Cheat Sheet</a>
               <a href="https://members.clinxacademy.com/get-non-clinical-jobs-guide-pdf" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Non-Clinical Job Resource Guide</a>
-              <Link href="/weekly-job-feed" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Weekly Job Feed</Link>
+              <a href="https://members.clinxacademy.com/weekly-job-feed" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Weekly Job Feed</a>
               <a href="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">10x Clinician Field Guide</a>
             </div>
           </div>
@@ -37,6 +37,7 @@ export default function Footer() {
               <Link href="/about" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">About</Link>
               <Link href="/contact" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Contact Us</Link>
               <a href="https://members.clinxacademy.com/affiliate_users/sign_up" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Affiliate Sign Up</a>
+              <a href="https://members.clinxacademy.com/affiliate_users/sign_in" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Affiliate Login</a>
               <Link href="/terms-of-service" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Terms &amp; Privacy</Link>
             </div>
           </div>
