@@ -49,6 +49,11 @@ const testimonials = [
     author: "Jaye Noel, MD",
     title: "Physician Executive",
   },
+  {
+    quote: "I used to think medicine meant going to work, seeing patients, and going home. Participating in ClinX has taken my professional life far beyond what I had for so long thought possible. I'm forever grateful to Alex Mohseni for broadening my horizons and helping me build a path that's rewarding in ways I never would have imagined.",
+    author: "Cecily Reynolds, MD",
+    title: "Physician",
+  },
 ];
 
 export default function Testimonials() {
