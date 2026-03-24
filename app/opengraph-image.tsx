@@ -18,77 +18,33 @@ export default function OGImage() {
           alignItems: "flex-start",
           justifyContent: "center",
           padding: "80px 100px",
-          fontFamily: "serif",
         }}
       >
-        {/* Eyebrow */}
+        {/* Big headline */}
         <div
           style={{
-            color: "#C45C3E",
-            fontSize: 18,
+            color: "#F5F3EF",
+            fontSize: 96,
             fontWeight: 700,
-            letterSpacing: "0.15em",
-            textTransform: "uppercase",
-            marginBottom: 24,
-            fontFamily: "sans-serif",
+            lineHeight: 1.05,
+            marginBottom: 40,
+            fontFamily: "serif",
           }}
         >
           ClinX Academy
         </div>
 
-        {/* Headline */}
+        {/* Tagline */}
         <div
           style={{
-            color: "#F5F3EF",
-            fontSize: 64,
+            color: "#C45C3E",
+            fontSize: 36,
             fontWeight: 400,
-            lineHeight: 1.1,
-            marginBottom: 32,
-            maxWidth: 900,
+            fontFamily: "sans-serif",
+            letterSpacing: "0.01em",
           }}
         >
           From the Exam Room to the Boardroom
-        </div>
-
-        {/* Subtext */}
-        <div
-          style={{
-            color: "#EBE8E2",
-            fontSize: 26,
-            opacity: 0.7,
-            maxWidth: 780,
-            fontFamily: "sans-serif",
-            fontWeight: 400,
-            lineHeight: 1.4,
-          }}
-        >
-          The business of healthcare — taught by clinicians, for clinicians.
-        </div>
-
-        {/* Bottom rule */}
-        <div
-          style={{
-            position: "absolute",
-            bottom: 60,
-            left: 100,
-            right: 100,
-            height: 1,
-            background: "rgba(235,232,226,0.15)",
-            display: "flex",
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            bottom: 30,
-            left: 100,
-            color: "#EBE8E2",
-            opacity: 0.4,
-            fontSize: 16,
-            fontFamily: "sans-serif",
-          }}
-        >
-          clinxacademy.com
         </div>
       </div>
     ),
