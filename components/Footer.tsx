@@ -24,8 +24,9 @@ export default function Footer() {
               <Link href="/events" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Events</Link>
               <a href="https://www.addevent.com/calendar/pw880860" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Calendar of Events</a>
               <Link href="/medicare-cheat-sheet" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Cheat Sheet</Link>
-              <Link href="/get-non-clinical-jobs-guide-pdf" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Non-Clinical Job Resource Guide</Link>
+              <a href="https://members.clinxacademy.com/get-non-clinical-jobs-guide-pdf" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Non-Clinical Job Resource Guide</a>
               <Link href="/weekly-job-feed" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Weekly Job Feed</Link>
+              <a href="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">10x Clinician Field Guide</a>
             </div>
           </div>
 
