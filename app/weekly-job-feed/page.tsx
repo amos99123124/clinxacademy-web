@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "Weekly Non-Clinical Physician Job Feed — ClinX Academy",
@@ -24,35 +25,7 @@ export default function WeeklyJobFeedPage() {
               </p>
 
               <div className="card bg-[#F5F3EF] p-10 text-left">
-                <form
-                  action="https://members.clinxacademy.com/weekly-job-feed"
-                  method="GET"
-                  className="space-y-4"
-                >
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-[#222222] mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="your@email.com"
-                      required
-                      style={{
-                        width: "100%",
-                        border: "1px solid #D8D4CC",
-                        padding: "0.75rem 1rem",
-                        fontSize: "0.875rem",
-                        color: "#222222",
-                        backgroundColor: "#F5F3EF",
-                      }}
-                    />
-                  </div>
-                  <button type="submit" className="btn-primary w-full">
-                    Send Me The Jobs
-                  </button>
-                </form>
+                <KajabiForm src="https://members.clinxacademy.com/forms/2149394648/embed.js" />
               </div>
             </div>
           </div>

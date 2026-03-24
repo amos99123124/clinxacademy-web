@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "The 10x Clinician Field Guide — ClinX Academy",
@@ -31,38 +32,7 @@ export default function FieldGuideOptInPage() {
               </div>
 
               <div className="card bg-[#F5F3EF] p-10 text-left">
-                <form
-                  action="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
-                  method="GET"
-                  className="space-y-4"
-                >
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-[#222222] mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="your@email.com"
-                      required
-                      style={{
-                        width: "100%",
-                        border: "1px solid #D8D4CC",
-                        padding: "0.75rem 1rem",
-                        fontSize: "0.875rem",
-                        color: "#222222",
-                        backgroundColor: "#F5F3EF",
-                      }}
-                    />
-                  </div>
-                  <button type="submit" className="btn-primary w-full">
-                    Send Me the Field Guide
-                  </button>
-                  <p className="text-xs text-[#4A4A4A] text-center opacity-70">
-                    We won&apos;t send spam. Unsubscribe at any time.
-                  </p>
-                </form>
+                <KajabiForm src="https://members.clinxacademy.com/forms/2149460320/embed.js" />
               </div>
             </div>
           </div>
