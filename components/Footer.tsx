@@ -16,6 +16,7 @@ export default function Footer() {
               <Link href="/physician-executive-training" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Physician Executive Training</Link>
               <Link href="/medical-director-course" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medical Director Course</Link>
               <Link href="/medicare-advantage-training" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Advantage Training</Link>
+              <Link href="/friendly-pc-owner" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Friendly PC Ownership</Link>
             </div>
           </div>
 
