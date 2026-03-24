@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "Weekly Non-Clinical Physician Job Feed — ClinX Academy",
@@ -23,10 +22,14 @@ export default function WeeklyJobFeedPage() {
               <p className="text-[#4A4A4A] text-lg leading-relaxed mb-10">
                 We scour the web so you don&apos;t have to. Get a curated list of the best non-clinical and hybrid physician roles delivered to your inbox each week.
               </p>
-
-              <div className="card bg-[#F5F3EF] p-10 text-left">
-                <KajabiForm src="https://members.clinxacademy.com/forms/2149394648/embed.js" />
-              </div>
+              <a
+                href="https://members.clinxacademy.com/weekly-job-feed"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Send Me The Jobs
+              </a>
             </div>
           </div>
         </section>

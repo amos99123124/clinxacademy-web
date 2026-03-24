@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "Free Medicare Cheat Sheet — ClinX Academy",
@@ -23,10 +22,14 @@ export default function MedicareCheatSheetPage() {
               <p className="text-[#4A4A4A] text-lg leading-relaxed mb-10">
                 Claim your FREE Medicare Cheat Sheet from ClinX Academy. This one-page reference simplifies Medicare rules, coverage, and billing basics for physicians, APPs, healthcare administrators, and anyone working in care delivery or value-based care.
               </p>
-
-              <div className="card bg-[#F5F3EF] p-10 text-left">
-                <KajabiForm src="https://members.clinxacademy.com/forms/2149352209/embed.js" />
-              </div>
+              <a
+                href="https://members.clinxacademy.com/medicare-cheat-sheet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Get the Free Cheat Sheet
+              </a>
             </div>
           </div>
         </section>

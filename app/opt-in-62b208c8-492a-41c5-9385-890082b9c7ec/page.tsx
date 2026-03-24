@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "The 10x Clinician Field Guide — ClinX Academy",
@@ -20,7 +19,7 @@ export default function FieldGuideOptInPage() {
               <h1 className="font-serif text-5xl text-[#222222] leading-tight mb-6">
                 Start your Non-Clinical Journey Here
               </h1>
-              <p className="text-[#4A4A4A] text-lg leading-relaxed mb-4">
+              <p className="text-[#4A4A4A] text-lg leading-relaxed mb-8">
                 Medical school satisfies clinical training, not business fluency. This field guide maps the healthcare business ecosystem — from Medicare Advantage basics to the investors reshaping care delivery — so you can start navigating it like an executive.
               </p>
 
@@ -31,9 +30,14 @@ export default function FieldGuideOptInPage() {
                 </p>
               </div>
 
-              <div className="card bg-[#F5F3EF] p-10 text-left">
-                <KajabiForm src="https://members.clinxacademy.com/forms/2149460320/embed.js" />
-              </div>
+              <a
+                href="https://members.clinxacademy.com/opt-in-62b208c8-492a-41c5-9385-890082b9c7ec"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Send Me the Field Guide
+              </a>
             </div>
           </div>
         </section>

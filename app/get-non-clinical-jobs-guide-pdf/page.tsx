@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import KajabiForm from "@/components/KajabiForm";
 
 export const metadata: Metadata = {
   title: "Non-Clinical Physician Jobs Resource Guide — ClinX Academy",
@@ -23,10 +22,14 @@ export default function NonClinicalJobsGuidePage() {
               <p className="text-[#4A4A4A] text-lg leading-relaxed mb-10">
                 We&apos;ll email you a PDF with our favorite places to find non-clinical gigs.
               </p>
-
-              <div className="card bg-[#F5F3EF] p-10 text-left">
-                <KajabiForm src="https://members.clinxacademy.com/forms/2149095706/embed.js" />
-              </div>
+              <a
+                href="https://members.clinxacademy.com/non-clinical-physician-jobs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Send Me the Guide
+              </a>
             </div>
           </div>
         </section>
