@@ -24,10 +24,10 @@ export default function OGImage() {
         <div
           style={{
             color: "#F5F3EF",
-            fontSize: 96,
+            fontSize: 110,
             fontWeight: 700,
-            lineHeight: 1.05,
-            marginBottom: 24,
+            lineHeight: 1.0,
+            marginBottom: 28,
             fontFamily: "serif",
           }}
         >
@@ -38,10 +38,10 @@ export default function OGImage() {
         <div
           style={{
             color: "#F5F3EF",
-            fontSize: 48,
+            fontSize: 52,
             fontWeight: 400,
             fontFamily: "sans-serif",
-            marginBottom: 24,
+            marginBottom: 28,
           }}
         >
           Unlock Your Non-Clinical Career
@@ -50,9 +50,9 @@ export default function OGImage() {
         {/* Domain */}
         <div
           style={{
-            color: "#C45C3E",
-            fontSize: 32,
-            fontWeight: 600,
+            color: "#7EC8E3",
+            fontSize: 40,
+            fontWeight: 700,
             fontFamily: "sans-serif",
           }}
         >
