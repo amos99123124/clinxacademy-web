@@ -21,9 +21,7 @@ export default function Hero() {
               Get the Free Field Guide
             </a>
             <a
-              href="https://members.clinxacademy.com/contact"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="btn-ghost text-center"
             >
               Schedule a Call

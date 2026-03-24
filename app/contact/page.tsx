@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import CalendlyWidget from "@/components/CalendlyWidget";
 
 export const metadata: Metadata = {
-  title: "Contact — ClinX Academy",
-  description: "Get in touch with ClinX Academy.",
+  title: "Schedule a Discovery Call — ClinX Academy",
+  description: "Book a 15-minute discovery call with Alex Mohseni, MD to discuss ClinX Academy and your path to healthcare leadership.",
 };
 
 export default function ContactPage() {
@@ -12,41 +13,24 @@ export default function ContactPage() {
     <>
       <Nav />
       <main>
-        <section className="bg-[#F5F3EF] py-24 border-b border-[#D8D4CC]">
+        <section className="bg-[#F5F3EF] py-12 border-b border-[#D8D4CC]">
           <div className="container-width">
-            <div className="max-w-xl">
-              <p className="eyebrow mb-4">Get in Touch</p>
-              <h1 className="font-serif text-5xl md:text-6xl text-[#222222] leading-tight mb-4">
-                Get in Touch
+            <div className="max-w-2xl mb-8">
+              <p className="eyebrow mb-3">Talk to Alex</p>
+              <h1 className="font-serif text-4xl md:text-5xl text-[#222222] leading-tight mb-4">
+                Schedule a Discovery Call
               </h1>
-              <p className="text-[#4A4A4A] text-lg leading-relaxed mb-10">
-                Have questions? We&apos;d love to hear from you!
+              <p className="text-[#4A4A4A] text-lg leading-relaxed mb-3">
+                15 minutes with Alex Mohseni, MD — discuss the program, your goals, and whether ClinX is the right fit.
               </p>
-
-              <div className="space-y-6">
-                <div className="card bg-[#F5F3EF] p-8">
-                  <p className="font-semibold text-[#222222] mb-1">Email</p>
-                  <a href="mailto:info@clinxacademy.com" className="text-[#C45C3E] hover:underline">
-                    info@clinxacademy.com
-                  </a>
-                </div>
-
-                <div className="card bg-[#F5F3EF] p-8">
-                  <p className="font-semibold text-[#222222] mb-3">Schedule a Call</p>
-                  <p className="text-[#4A4A4A] text-sm mb-4">
-                    Book a 1-on-1 call with Alex or the team to discuss ClinX, your career goals, or any questions.
-                  </p>
-                  <a
-                    href="https://calendly.com/alex-clinx"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary"
-                  >
-                    Schedule a Call
-                  </a>
-                </div>
-              </div>
+              <p className="text-sm text-[#4A4A4A]">
+                Prefer email?{" "}
+                <a href="mailto:info@clinxacademy.com" className="text-[#C45C3E] hover:underline font-medium">
+                  info@clinxacademy.com
+                </a>
+              </p>
             </div>
+            <CalendlyWidget url="https://calendly.com/mohseni/clinx-discovery-call" />
           </div>
         </section>
       </main>
