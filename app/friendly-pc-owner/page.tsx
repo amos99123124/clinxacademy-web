@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: "How much can a Friendly PC owner earn?",
-    a: "Compensation varies widely. Simple arrangements pay $1,000–$5,000/month for minimal involvement. More sophisticated arrangements — where the physician takes on operational oversight, value-based care leadership, or equity participation — can generate $150K–$500K+ annually. The more business fluency you have, the better the terms you can negotiate.",
+    a: "Compensation varies significantly based on the scope of the arrangement, the organization, and the physician's role. Arrangements that include operational oversight, quality leadership, or equity participation can generate $150K–$500K+ annually. The more business fluency you bring to the negotiation, the better the terms you can command.",
   },
   {
     q: "Do I need an MBA to become a Friendly PC owner?",
@@ -139,19 +139,19 @@ export default function FriendlyPCOwnerPage() {
               <div>
                 <p className="eyebrow mb-4">The Opportunity</p>
                 <h2 className="font-serif text-4xl text-[#222222] leading-tight mb-6">
-                  Done Right, PC Ownership Is One of the Best Non-Clinical Income Streams Available to Physicians
+                  Done Right, PC Ownership Can Be One of the Most Rewarding Roles Available to Physicians Outside of Clinical Practice
                 </h2>
                 <p className="text-[#4A4A4A] text-lg leading-relaxed mb-6">
-                  A simple Friendly PC arrangement might pay $1,000–$5,000/month for minimal involvement. A sophisticated arrangement — where you bring operational oversight, value-based care leadership, and equity negotiation — can generate six figures annually on top of clinical income.
+                  PC ownership is a real role with real responsibilities — and real upside for physicians who take it seriously. Compensation varies significantly based on the scope of your engagement, the type of organization, and whether you negotiate for equity and value-based care participation.
                 </p>
                 <p className="text-[#4A4A4A] text-lg leading-relaxed">
-                  The difference between those two outcomes is almost entirely a function of business literacy. ClinX Academy is designed to give you that literacy.
+                  The difference between outcomes is almost entirely a function of business literacy. Physicians who understand the structure negotiate better terms, take on smarter arrangements, and build greater long-term value. ClinX Academy is designed to give you that literacy.
                 </p>
               </div>
               <div className="space-y-4">
                 {[
-                  { label: "Basic Friendly PC (minimal involvement)", range: "$12K–$60K/yr" },
-                  { label: "PC with operational oversight role", range: "$80K–$200K/yr" },
+                  { label: "PC ownership with clinical oversight responsibilities", range: "$50K–$150K/yr" },
+                  { label: "PC with operational leadership role", range: "$100K–$250K/yr" },
                   { label: "PC with equity + value-based care participation", range: "$200K–$500K+/yr" },
                 ].map((item) => (
                   <div key={item.label} className="bg-[#F5F3EF] rounded-xl p-6 flex justify-between items-center gap-4">
