@@ -81,6 +81,27 @@ h1, h2, h3, h4 {
   color: #F5F3EF;
 }
 
+.btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: #F5F3EF;
+  padding: 0.75rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1.5px solid rgba(245, 243, 239, 0.4);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  border-color: #F5F3EF;
+  background-color: rgba(245, 243, 239, 0.1);
+}
+
 .btn-ghost-light {
   display: inline-block;
   background-color: transparent;
@@ -118,4 +139,102 @@ h1, h2, h3, h4 {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #B8860B;
+}
+
+/* Blog article body */
+.blog-content {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #4A4A4A;
+  max-width: 68ch;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4 {
+  font-family: 'Instrument Serif', Georgia, serif;
+  color: #222222;
+  line-height: 1.25;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content h2 { font-size: 1.75rem; }
+.blog-content h3 { font-size: 1.375rem; }
+.blog-content h4 { font-size: 1.125rem; }
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-content a {
+  color: #C45C3E;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-content a:hover {
+  color: #a04830;
+}
+
+.blog-content strong {
+  font-weight: 600;
+  color: #222222;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1.25rem 0;
+  padding-left: 1.5rem;
+}
+
+.blog-content ul { list-style-type: disc; }
+.blog-content ol { list-style-type: decimal; }
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-content blockquote {
+  border-left: 3px solid #C45C3E;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  background: #F5F3EF;
+  color: #222222;
+  font-style: italic;
+}
+
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9375rem;
+}
+
+.blog-content th,
+.blog-content td {
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #D8D4CC;
+}
+
+.blog-content th {
+  background: #F5F3EF;
+  font-weight: 600;
+  color: #222222;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.blog-content hr {
+  border: none;
+  border-top: 1px solid #D8D4CC;
+  margin: 2rem 0;
 }

@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <p className="text-xs font-bold tracking-widest uppercase text-[#EBE8E2] mb-4">Resources</p>
             <div className="flex flex-col gap-2">
-              <a href="https://blog.clinxacademy.com" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Blog</a>
+              <Link href="/blog" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Blog</Link>
               <Link href="/events" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Events</Link>
               <a href="https://www.addevent.com/calendar/pw880860" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Calendar of Events</a>
               <a href="https://members.clinxacademy.com/medicare-cheat-sheet" target="_blank" rel="noopener noreferrer" className="text-sm text-[#EBE8E2] opacity-60 hover:opacity-100 transition-opacity">Medicare Cheat Sheet</a>
